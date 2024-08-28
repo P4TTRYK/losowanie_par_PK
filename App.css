@@ -1,0 +1,171 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.result {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #4caf50;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #6ca46e;
+}
+
+button.active {
+  background-color: #045008;
+}
+
+button.remove-button {
+  background-color: #f44336;
+}
+
+button.add-button {
+  background-color: #2196f3;
+}
+
+button.submit-button {
+  background-color: #ff9800;
+}
+
+button.save-button {
+  background-color: #673ab7;
+}
+
+button.download-txt-button {
+  background-color: #9aa401;
+}
+
+button.captain-button {
+  background: none;
+  border: none;
+  color: gold;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button.captain-button.captain {
+  color: yellow;
+}
+
+input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.name-input-container {
+  display: flex;
+  align-items: center;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.instructions {
+  text-align: left;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #282828;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.instructions h3 {
+  margin-top: 0;
+}
+
+.instructions p {
+  margin: 5px 0;
+}
+
+.input-error {
+  border: 2px solid red;
+  background-color: #ffe6e6;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Dodane dla lepszego pozycjonowania nagłówka */
+}
+
+.App-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.logo-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #4caf50; /* Zielona linia pod napisem */
+  padding-bottom: 5px; /* Odstęp pod napisem */
+}
+
+.logo-link:hover {
+  color: #4caf50;
+  border-bottom: 2px solid #ffffff; /* Biała linia na hover */
+}
