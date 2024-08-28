@@ -1,3 +1,10 @@
+Cześć, przesyłam projekt strony do losowania par jest oparty na backendzie pythona i frontendzie react. Jestem początkujący więc licze na podpowiedzi od bardziej zaawansowanych osób. Pozdrawiam i miłego użytkowania.
+
+Hi,
+I’m sending over a project for a pair-drawing website. It is based on a Python backend and a React frontend. As I am a beginner, I am looking forward to any tips and suggestions from more experienced individuals.
+Best regards and enjoy using it!
+
+
 NonCommercial Software License
 
 Copyright (c) [2024] [P4TTRYK]
